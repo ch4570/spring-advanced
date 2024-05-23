@@ -31,6 +31,6 @@ public class TraceId {
     }
 
     public boolean isFirstLevel() {
-        return level == 1;
+        return level == 0;
     }
 }
